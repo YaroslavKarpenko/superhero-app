@@ -64,6 +64,7 @@ docker ps
 Now you can connect to MongoDB from your application using the following:
 
 Host: localhost
+
 Port: 27017
 
 Use the following URI to connect to MongoDB (for example, in your application):
