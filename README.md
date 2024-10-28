@@ -86,7 +86,7 @@ npm run dev
 Let's run the client application in the same way by returning to the project root.
 
 ```
-cd ...
+cd .. 
 npm run dev
 ```
 
