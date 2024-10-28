@@ -11,10 +11,10 @@ Cons and bugs: when changing superhero details, you can select multiple images (
 You can do this with the command:
 
 ```
-
+git clone https://github.com/YaroslavKarpenko/superhero-app.git
 ```
 
-### Install dependencies
+# Install dependencies
 
 First you need to go to the root of the project
 
@@ -40,7 +40,7 @@ Install its dependencies:
 npm i
 ```
 
-#### Preparing to work with the database
+# Preparing to work with the database
 
 In this application as a DBMS I chose MongoDB, but still decided to store in the database not the images of superheroes, but links to images, the images themselves should be stored on cloud storage (like AWS S3), but I have them stored in the folder images in the root of the project.
 I did it in order not to complicate the work by connecting and configuring AWS.
@@ -75,7 +75,7 @@ mongodb://localhost:27017/mydatabase
 It needs to be set in the .env environment variables configuration file
 There is already an example of filling in the data in the .env.sample file (you can use this data)
 
-##### Running the application
+# Running the application
 
 In the server directory let's launch the application in development mode
 
@@ -90,7 +90,7 @@ cd ...
 npm run dev
 ```
 
-##### Running tests
+# Running tests
 
 In the server directory let's run the next command:
 
