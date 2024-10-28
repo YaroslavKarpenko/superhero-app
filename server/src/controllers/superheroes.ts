@@ -161,4 +161,10 @@ const removeSuperhero: RequestHandler = async (req, res) => {
   }
 };
 
-export default { getSuperheroes, getSuperheroById, addSuperhero, updateSuperhero, removeSuperhero };
+export default {
+  getSuperheroes,
+  getSuperheroById,
+  addSuperhero,
+  updateSuperhero,
+  removeSuperhero,
+};
