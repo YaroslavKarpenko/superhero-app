@@ -11,7 +11,7 @@ Cons and bugs: when changing superhero details, you can select multiple images (
 You can do this with the command:
 
 ```
-
+https://github.com/YaroslavKarpenko/superhero-app.git
 ```
 
 ### Install dependencies
@@ -19,7 +19,7 @@ You can do this with the command:
 First you need to go to the root of the project
 
 ```
-cd .{superhero-app}
+cd .\superhero-app\
 ```
 
 Now we are in the root directory of the React application. Let's install its dependencies:
@@ -64,6 +64,7 @@ docker ps
 Now you can connect to MongoDB from your application using the following:
 
 Host: localhost
+
 Port: 27017
 
 Use the following URI to connect to MongoDB (for example, in your application):
@@ -86,6 +87,6 @@ npm run dev
 Let's run the client application in the same way by returning to the project root.
 
 ```
-cd ...
+cd ..
 npm run dev
 ```
